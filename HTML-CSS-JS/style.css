@@ -1,0 +1,28 @@
+/* Selectores representan las etiquetas de HTML en CSS: se le agrega propiedades para agregar estilo a la pagina web */
+html {
+    height:100%;
+    width:100%
+}
+
+body {
+    background-color:rgb(170, 192, 203);
+}
+
+* {
+    color:rgb(27, 87, 14);
+}
+
+/* id: se nombran anteponiendo un # */
+#ejemploId {
+    color:#720202;
+}
+/* class: se nombran anteponiendo un punto */
+.ejemploClass{
+    font-style: oblique;
+}
+
+.text{
+    font-weight: bolder;
+    color: black;
+}
+

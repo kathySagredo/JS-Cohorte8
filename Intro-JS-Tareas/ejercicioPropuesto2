@@ -1,0 +1,58 @@
+// Declaración de variables
+var nombre = "Tu Nombre";
+var edad = 30;
+
+// Concatenación de cadenas
+var saludo = "Hola, mi nombre es " + nombre + " y tengo " + edad + " años.";
+var saludo1 = `Hola, mi nombre es ${nombre} y tengo ${edad} años.`
+
+// Tipos de datos
+var num1 = 5;
+var num2 = 2.5;
+var esVerdadero = true;
+var nulo = null;
+var indefinido;
+
+// Operadores matemáticos
+var suma = num1 + num2;
+var resta = num1 - num2;
+var multiplicacion = num1 * num2;
+var division = num1 / num2;
+
+// Operadores de comparación
+var comparacion1 = num1 > num2;
+var comparacion2 = num1 >= num2;
+var comparacion3 = num1 < num2;
+var comparacion4 = num1 <= num2;
+
+// Concatenación adicional
+var ciudad = "Tu Ciudad";
+var mensaje = "Bienvenido, mi nombre es " + nombre + " y soy de " + ciudad + ".";
+
+// Operador ternario
+esVerdadero ? console.log("La variable esVerdadero es verdadera") : console.log("La variable esVerdadero no es verdadera");
+
+// Incremento y decremento
+edad++;
+num1 -= 2;
+
+// Operaciones matemáticas avanzadas
+var resultado = (num1 + num2) * edad;
+
+// Concatenación de cadenas avanzada
+var presentacion = `Hola, soy ${nombre}, tengo ${edad} años y vengo de ${ciudad}. Mi número favorito es ${num1}.`;
+
+// Mostrar resultados en la consola
+console.log(saludo);
+console.log("Operaciones matemáticas:");
+console.log("Suma:", suma);
+console.log("Resta:", resta);
+console.log("Multiplicación:", multiplicacion);
+console.log("División:", division);
+console.log("Comparación:", comparacion1);
+console.log("Comparación:", comparacion2);
+console.log("Comparación:", comparacion3);
+console.log("Comparación:", comparacion4);
+console.log(mensaje);
+console.log(resultado);
+console.log(presentacion);

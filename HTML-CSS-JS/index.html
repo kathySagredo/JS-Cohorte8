@@ -1,0 +1,36 @@
+<!--HTML: Lenguaje de marcado para estructurar la pagina web -->
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- Etiqueta de apertura -->
+    <meta charset="UTF-8"> <!-- Etiquetas base de html que ayuda a leer el navegador -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo</title>
+    <link rel="stylesheet" href="style.css"> <!-- En esta sección se agrega el enlace a los estilos para la pagina web -->
+</head>
+<body> <!-- Etiqueta de cuerpo -->
+    <!-- Etiquetas de tamaño de titulos -->
+    <h1>Etiquetas de titulo</h1>
+    <h2>Hola mundo subtitulo</h2>
+    <h3 id="id_prueba">Hola mundo subtitulo 3</h3>
+    <h4 id="id_prueba2">Hola mundo subtitulo 4</h4>
+    <h5>Hola mundo subtitulo 5</h5>
+    <h6>Hola mundo subtitulo 6</h6>
+    <!-- Boton: onclick nos permite agregar la función desde JS -->
+    <button onclick="manejoDeClick()">Cambiar interfaz</button>
+    <!-- Lorem ipsum: texto relleno antes de completar información a tu página  -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="text">Incidunt rem voluptas officiis harum molestiae minus laboriosam repellendus fugiat tempora totam vero, alias laborum iure, eius dolore iusto minima expedita vel.</span></p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem enim autem incidunt consectetur recusandae doloribus amet tempora natus veniam modi cupiditate sequi velit, placeat similique reiciendis aliquid praesentium ut in.
+    Qui, vel sunt nostrum deserunt ipsum molestiae officia nemo esse impedit! Consequuntur distinctio qui molestiae. Laborum, exercitationem nostrum dicta sapiente dolorem maxime recusandae autem. Impedit pariatur accusamus quibusdam rem quia!
+    Modi natus nobis optio labore  asperiores laboriosam voluptas architecto vel, dicta dolorem obcaecati nemo dolorum, ratione dolore illum fugit ex sit ipsa cupiditate omnis deserunt ipsum aspernatur laborum nostrum. Asperiores!
+    Earum illo perspiciatis aperiam at autem numquam culpa, in laborum corporis eveniet ipsam amet totam qui nostrum incidunt voluptas quisquam sit iure modi eos repellendus quaerat! Quidem neque harum deleniti.</p>
+    <!-- Etiquetas de imagen: agrega el enlace de la imagen. No tiene etiquetas de cierre (</img>) -->
+    <img src="https://cataas.com/cat" height="250px" width="250px" alt=""> <!-- alt es una de las propiedades de la etiqueta que nos permite agregar una descripción de la imagen. -->
+    <img src="https://picsum.photos/id/684/600/400" width="250px" height="250px" alt="">
+    <!-- Propiedades id y class dentro de las etiquetas-->
+    <p id="ejemploId" class="ejemploClass">Ejemplo 1: ID</p> <!-- Id: valor unico, permite agregar un identificador -->
+    <p id="ejemplo2Id" class="ejemploClass">Ejemplo 2: CLASS</p> <!-- Class: permite agregar parametros de aspectos propios de esa clase -->
+
+    <script src="script-DOM.js"></script> 
+    <!-- En esta sección se agrega el enlace del script para darle funcionalidad a la pagina web -->    
+</body>
+</html>

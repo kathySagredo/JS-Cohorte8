@@ -1,0 +1,63 @@
+GIT en acción
+
+git init : inicializar git
+git add moon.js : agrega el nombre del archivo
+git add . : agrega todos las carpetas. 
+git commit -m "se guardo los nuevos cambios de la carpeta en git add" : Comentar los cambios introducidos.
+
+GIT
+
+Paraconfigurar vs-code
+git config --global user.name "Tu nombre aquí" 
+git config --global user.email "Tu@email.aqui” 
+git config --global core.editor "code --wait"
+git config --global -e
+
+para ver los archivos que hay en una carpeta
+ls
+
+para moverse entre carpetas
+cd nombrecarpeta
+cd .. (para retroceder o salir de la carpeta)
+
+para crear una carpeta
+mkdir nombrecarpeta
+
+para crear un archivo
+touch index.html
+
+para ver el estado de la carpeta
+git status
+
+para abrir vscode
+code .
+
+para subir un archivo a un repo
+git init (inicia)
+git add intex.html (agrega los cambios, hay que poner el archivo especifico o usar "git add ." para subir todos los archivos)
+git commit -m "primercommit" (agrega el comentario del cambio)
+git branch -M main (se crea una nueva rama)
+git remote add origin https://github.com/nombreusuario/documento.git (se conecta con el repo)
+git push -u origin main (se supe al repo en github)
+
+para clonar repositorio
+git clone link
+
+RAMAS
+git branch //indica la rama actual 
+git branch nombreDeNuevaRama // crea nueva rama 
+git checkout nombreDeNuevaRama // me mueve a la rama que le indique
+git checkout -b nombreRama // crea la rama y te mueves a ella
+git log --graph //permite los comentarios por rama 
+
+para fusionar ramas
+git checkout main (hay que ir a main)
+git merge nombredeturama
+
+para actualizar cambios
+cd nombrecarpeta
+git pull
+
+git pull descarga y fusiona los cambios del repositorio remoto en tu rama actual.
+git pull origin main descarga y fusiona los cambios de la rama main del repositorio remoto llamado "origin" en tu rama actual.
+
